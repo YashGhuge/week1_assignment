@@ -1,0 +1,26 @@
+Create a file, assign permissions (read, write, execute) to different user categories (owner, group, others), and practice changing permissions using chmod.
+
+**************************************************************************************************************
+
+1. Create the file
+
+touch myassignmentfile.txt
+
+2. Set initial permissions
+
+chmod u=rwx,g=rx,o= myassignmentfile.txt
+
+3. View permissions
+
+ls -l myassignmentfile.txt
+
+4. Change permissions 
+
+chmod g-x myassignmentfile.txt
+chmod o+r myassignmentfile.txt
+
+5. View permissions again to see the changes
+
+ls -l myassignmentfile.txt
+					
+						 ***
